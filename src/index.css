@@ -1,13 +1,60 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(0,0,0,0.4) url('./fon_eda_zavtrak_83059_1920x1200.jpg') no-repeat center/ cover;
+    background-blend-mode: darken;
+    padding-top: 150px;
+
+}
+
+.title {
+    color: white;
+    text-transform: uppercase;
+    font-size: 52px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.sub-title {
+    text-transform: uppercase;
+    font-weight: 200;
+    color: #ffffff;
+    padding-bottom: 40px;
+}
+.sub-title span{
+    font-weight: 900;
+    color: #ffcf3c;
+}
+.btn{
+    margin-bottom: 10px;
+}
+tbody{
+    color: black;
+}
+.alert{
+    background: #d5ffd7;
+    color: #00bf00;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    border: 1px solid  #00bf00;
+    width: 350px;
+    margin: 0 auto;
+}
+.overflow-scroll{
+    overflow-x: scroll;
 }
